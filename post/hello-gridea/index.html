@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Hello Gridea | Vin个人博客</title>
-<link rel="shortcut icon" href="https://NorthernAurora.github.io/favicon.ico?v=1585041528680">
+<link rel="shortcut icon" href="https://NorthernAurora.github.io/favicon.ico?v=1585041618169">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://NorthernAurora.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="Hello Gridea | Vin个人博客 - Atom Feed" href="https://NorthernAurora.github.io/atom.xml">
@@ -28,7 +28,7 @@ Gridea 主页
       <div class="main-content">
         <div class="site-header">
   <a href="https://NorthernAurora.github.io">
-  <img class="avatar" src="https://NorthernAurora.github.io/images/avatar.png?v=1585041528680" alt="">
+  <img class="avatar" src="https://NorthernAurora.github.io/images/avatar.png?v=1585041618169" alt="">
   </a>
   <h1 class="site-title">
     Vin个人博客
@@ -140,6 +140,32 @@ Gridea 主页
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '59e801a95a88ff189347',
+    clientSecret: 'e7a1b1a0cde1a5998495bafeee40b181c874abe6',
+    repo: 'NorthernAurora.github.io',
+    owner: 'NorthernAurora',
+    admin: ['NorthernAurora'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
