@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | Vin制作组</title>
+<title>相关成员 | Vin制作组</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,25 @@
 <link rel="stylesheet" href="https://NorthernAurora.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="芝兰生于深林，不以无人而不芳。">
+    <meta name="description" content="灵魂人物：叫我不开森
+项目中负责剧情与人设以及场景监制的大佬，，在读带学生，饱读中外名著，每句话都引人思考。
+技术实现：Vra🌊
+项目中负责代码实现，对制作RPG充满热情，在读带学生，貌似没有其他值得一提的。
+其他：
+欢迎志同道合的hxd..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -88,10 +100,41 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">相关成员</h2>
+            <div class="post-date">2020-03-25</div>
             
+            <div class="post-content" v-pre>
+              <p>灵魂人物：叫我不开森<br>
+项目中负责剧情与人设以及场景监制的大佬，，在读带学生，饱读中外名著，每句话都引人思考。</p>
+<p>技术实现：Vra🌊<br>
+项目中负责代码实现，对制作RPG充满热情，在读带学生，貌似没有其他值得一提的。</p>
+<p>其他：<br>
+欢迎志同道合的hxd来加入我们！😘</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://NorthernAurora.github.io/post/guan-yu-ben-zhan/">
+                  <h3 class="post-title">
+                    关于本站
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
       </div>
     </div>
@@ -111,6 +154,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '84bd6004cbd68c4eb0f2',
+        clientSecret: '45cf45537955d8aeb80f863164aa46fc6ba12501',
+        repo: 'NorthernAurora.github.io',
+        owner: 'NorthernAurora',
+        admin: ['NorthernAurora'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

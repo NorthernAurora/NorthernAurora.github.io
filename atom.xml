@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NorthernAurora.github.io</id>
-    <title>Vin个人博客</title>
-    <updated>2020-03-25T02:00:52.055Z</updated>
+    <title>Vin制作组</title>
+    <updated>2020-03-25T02:54:21.668Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NorthernAurora.github.io"/>
     <link rel="self" href="https://NorthernAurora.github.io/atom.xml"/>
     <subtitle>芝兰生于深林，不以无人而不芳。</subtitle>
     <logo>https://NorthernAurora.github.io/images/avatar.png</logo>
     <icon>https://NorthernAurora.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Vin个人博客</rights>
+    <rights>All rights reserved 2020, Vin制作组</rights>
+    <entry>
+        <title type="html"><![CDATA[相关成员]]></title>
+        <id>https://NorthernAurora.github.io/post/xiang-guan-cheng-yuan/</id>
+        <link href="https://NorthernAurora.github.io/post/xiang-guan-cheng-yuan/">
+        </link>
+        <updated>2020-03-25T02:48:13.000Z</updated>
+        <content type="html"><![CDATA[<p>灵魂人物：叫我不开森<br>
+项目中负责剧情与人设以及场景监制的大佬，，在读带学生，饱读中外名著，每句话都引人思考。</p>
+<p>技术实现：Vra🌊<br>
+项目中负责代码实现，对制作RPG充满热情，在读带学生，貌似没有其他值得一提的。</p>
+<p>其他：<br>
+欢迎志同道合的hxd来加入我们！😘</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于本站]]></title>
         <id>https://NorthernAurora.github.io/post/guan-yu-ben-zhan/</id>
