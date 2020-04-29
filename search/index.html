@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -50,10 +50,38 @@
                     })();
                 </script>
                 
+    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/lib/fuse.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/lib/ejs.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/lib/gridea-search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/example/assets/media/gridea-search/result-template.ejs" type="text/ejs"></script>
+    <style>
+            .main_ {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 90vh;
+            }
+            
+            .result-box {
+                margin-top: 50px;
+                display: flex;
+                border-radius: 5px;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
 </head>
 
 <body>
-    <div class="wrapper">
+    <style>
+        .searched-keyword {
+            background-color: green;
+        }
+    </style>
+    <div class="main_">
         <header>
     <nav class="navbar">
         <div class="container">
@@ -160,139 +188,15 @@
 
     }
 </script>
-            <div class="main">
-                <div class="container">
-                    <article class="post-wrap">
-                        <header class="post-header">
-                            <h1 class="post-title">
-                                关于本站
-                            </h1>
-                            
-                                <!--en-->
-                                <div class="post-meta en">
-                                    Author:
-                                    <a itemprop="author" rel="author" href="/">
-                                        Module
-                                    </a>
-                                    <span class="post-time">
-                                Date: <a href="#">2020-03-25</a>
-                            </span>
-                                    <span class="post-readtime">Reading Time:<a
-                                    href="#">0.8
-                                    mins</a></span>
-                                    <span class="post-words">words:<a href="#">224</a></span>
-                                    
-                                            Views:
-                                            <span data-hk-page="current"> - </span>
-                                            
-                                </div>
-                                
-                        </header>
-                        
-                        <div class="post-content">
-                            <p>Hi，大家好。😘<br>
-本站为博主搭建的静态博客交流平台，博主目前还是一名本科在读的计算机系大二学生，虽然如此，但博主热爱游戏，做梦都想要开发一款属于自己的RPG！<br>
-那么，既然有梦想，就大胆去追梦！<br>
-本站已开放评论与Github登录系统，大家可以在本站看到我的学习历程与开发实况，也可以在本站尽情讨论相关知识。<br>
-我坚信，有梦想的不只是我一个人，希望在看到我的行动后也可以唤醒诸位藏在心底的那份被时间/现实所淹没的梦想与感动！</p>
-<p>“无法达成的目标才是我的目标，迂回曲折的路才是我想走的路，而每次的歇息，总是带来新的向往。”<br>
-—赫尔曼·黑塞 <img src="https://NorthernAurora.github.io/post-images/1585099734746.jpg" alt="" loading="lazy"></p>
-
-                        </div>
-                        
-                                
-                                    
-                                        <!--en-->
-                                        <section class="post-copyright en">
-                                            <p class="copyright-item">
-                                                <span>Author:</span>
-                                                <span>Module</span>
-                                            </p>
-
-                                            <p class="copyright-item">
-                                                <span>Permalink:</span>
-                                                <span><a href="https://NorthernAurora.github.io/post/guan-yu-ben-zhan/">https://NorthernAurora.github.io/post/guan-yu-ben-zhan/</a></span>
-                                            </p>
-
-                                            <p class="copyright-item">
-                                                <span>License:</span>
-                                                <span>MIT License</span>
-                                            </p>
-                                        </section>
-                                        
-                                                
-                                                    
-                                                        <!-- Share-->
-                                                        <span style="margin-right:15px">
-                                                    <i class="post-share"></i>
-                                                    <span>Share:</span>
-                                                        <a title="QR Code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://NorthernAurora.github.io/post/guan-yu-ben-zhan/"><i class="fa fa-qrcode"></i></a>
-                                                        <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://NorthernAurora.github.io/post/guan-yu-ben-zhan/&sharesource=qzone&title=关于本站&pics=https://NorthernAurora.github.io/images/avatar.png?v=1588125800897&summary="><i class="fa fa-qq"></i></a>
-                                                        <a title="Weibo" target="_blank" href="https://service.weibo.com/share/share.php?url=https://NorthernAurora.github.io/post/guan-yu-ben-zhan/&sharesource=weibo&title=关于本站 + " - " + &pic="https://NorthernAurora.github.io/images/avatar.png?v=1588125800897 "><i class="fa fa-weibo "></i></a>
-                                                        
-                                                            <div class="reward ">
-                                                                <div class="reward-button ">&yen;
-                                                                    <span class="reward-code "> 
-                                                                <span class="alipay-code "> <img class="alipay-img " alt = "support " src="https://blog.itjoker.cn/alipay.jpg"><b>Alipay</b> </span>
-                                                                    <span class="wechat-code "> <img alt ="support " class="wechat-img " src="https://blog.itjoker.cn/wechat.jpg"><b>Wechat</b> </span> </span>
-                                                                </div>
-                                                            </div>
-                                                            
-                                                                </span>
-                                                                <!--en-->
-                                                                <section class="post-tags en ">
-                                                                    <div>
-                                                                        <span>Tag(s):</span>
-                                                                        <span class="tag ">
-                        
-                                                            </span>
-                                                                    </div>
-                                                                    <div>
-                                                                        <a href="javascript:window.history.back();">back</a>
-                                                                        <span>&dot;</span>
-                                                                        <a href="#">home</a>
-                                                                    </div>
-                                                                </section>
-                                                                
-                                                                                <!---->
-                                                                                <section class="post-nav">
-                                                                                    
-                                                                                        <a class="prev" rel="prev" href="https://NorthernAurora.github.io/post/xiang-guan-cheng-yuan/">
-                                                                                            相关成员
-                                                                                        </a>
-                                                                                        
-                                                                                            
-                                                                                </section>
-                    </article>
+            <div class="result-box">
+                <div id="gridea-search-result">
+                    <p class="searching">搜索中......</p>
+                    <p class="no-result" style="display:none">未搜索到相关文章</p>
                 </div>
-                
-                    
-                        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container" style="width: 100%;max-width: 780px;margin: auto;"></div>
-
-<script>
-    var gitalk = new Gitalk({
-        clientID: '84bd6004cbd68c4eb0f2',
-        clientSecret: '45cf45537955d8aeb80f863164aa46fc6ba12501',
-        repo: 'NorthernAurora.github.io',
-        owner: 'NorthernAurora',
-        admin: ['NorthernAurora'],
-        id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
-        distractionFreeMode: false // Facebook-like distraction free mode
-    })
-
-    gitalk.render('gitalk-container')
-</script>
-                            
-                                        
-                                            
             </div>
     </div>
-    </div>
-    </div>
-    
+</body>
+
     <div id="player"></div>
     
         <footer id="footer" class="footer">
@@ -429,10 +333,5 @@ Powered by <a href="https://northernaurora.github.io/" target="_blank">Vin</a>
                         tpwidget("show");
                     </script>
                     
-        </div>
-</body>
-<script>
-    scroll();
-</script>
 
 </html>
