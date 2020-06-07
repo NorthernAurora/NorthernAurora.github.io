@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NorthernAurora.github.io</id>
     <title>Module</title>
-    <updated>2020-06-06T15:50:00.900Z</updated>
+    <updated>2020-06-07T04:00:32.026Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NorthernAurora.github.io"/>
     <link rel="self" href="https://NorthernAurora.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://NorthernAurora.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Module</rights>
     <entry>
-        <title type="html"><![CDATA[关于Java连接MySql报错出现at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:11]]></title>
+        <title type="html"><![CDATA[关于Java连接MySql常见报错]]></title>
         <id>https://NorthernAurora.github.io/post/guan-yu-java-lian-jie-mysql-bao-cuo-chu-xian-at-commysqlcjjdbcexceptionssqlerrorcreatesqlexceptionsqlerrorjava11/</id>
         <link href="https://NorthernAurora.github.io/post/guan-yu-java-lian-jie-mysql-bao-cuo-chu-xian-at-commysqlcjjdbcexceptionssqlerrorcreatesqlexceptionsqlerrorjava11/">
         </link>
@@ -23,6 +23,11 @@
 扩展：MySQL jdbc 6.0 版本以上必须配置“serverTimezone”参数<br>
 UTC代表的是全球标准时间<br>
 若我们使用的时间是北京时区也就是东八区，领先UTC八个小时。url的时区使用中国标准时间。也是就serverTimezone=Asia/Shanghai</p>
+<p>** IDEA提示**<br>
+<strong>Establishing SSL connection without server's identity verification is not recommende</strong><br>
+  <strong>解决方法：数据库url中地址要配置“useSSL=false”</strong><br>
+<strong>使用上述标红的URL,即可解决该警告,标红参数前面为你数据库连接URL,如果有多个参数记得用&amp;连接,例如<br>
+jdbk:mysql://localhost:3306/testdb?characterEncoding=utf-8&amp;useSSL=false</strong></p>
 ]]></content>
     </entry>
     <entry>

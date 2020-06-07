@@ -84,7 +84,7 @@
                         <input id="switch_default" type="checkbox" class="switch_default">
                         <label for="switch_default" class="toggleBtn"></label>
             </div>
-            <form id="gridea-search-form" data-update="1591458574747" action="/search/index.html">
+            <form id="gridea-search-form" data-update="1591502429458" action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
             </form>
         </div>
@@ -103,7 +103,7 @@
                         <!--zh-->
                         <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
                     </div>
-                    <form id="gridea-search-form" data-update="1591458574747" action="/search/index.html">
+                    <form id="gridea-search-form" data-update="1591502429458" action="/search/index.html">
                         <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
                     </form>
                     <!--en-->
@@ -165,7 +165,7 @@
                     <article class="post-wrap">
                         <header class="post-header">
                             <h1 class="post-title">
-                                关于Java连接MySql报错出现at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:11
+                                关于Java连接MySql常见报错
                             </h1>
                             
                                 <!--en-->
@@ -178,9 +178,9 @@
                                 Date: <a href="#">2020-06-06</a>
                             </span>
                                     <span class="post-readtime">Reading Time:<a
-                                    href="#">0.3
+                                    href="#">0.7
                                     mins</a></span>
-                                    <span class="post-words">words:<a href="#">91</a></span>
+                                    <span class="post-words">words:<a href="#">176</a></span>
                                     
                                             Views:
                                             <span data-hk-page="current"> - </span>
@@ -197,6 +197,11 @@
 扩展：MySQL jdbc 6.0 版本以上必须配置“serverTimezone”参数<br>
 UTC代表的是全球标准时间<br>
 若我们使用的时间是北京时区也就是东八区，领先UTC八个小时。url的时区使用中国标准时间。也是就serverTimezone=Asia/Shanghai</p>
+<p>** IDEA提示**<br>
+<strong>Establishing SSL connection without server's identity verification is not recommende</strong><br>
+  <strong>解决方法：数据库url中地址要配置“useSSL=false”</strong><br>
+<strong>使用上述标红的URL,即可解决该警告,标红参数前面为你数据库连接URL,如果有多个参数记得用&amp;连接,例如<br>
+jdbk:mysql://localhost:3306/testdb?characterEncoding=utf-8&amp;useSSL=false</strong></p>
 
                         </div>
                         
@@ -231,8 +236,8 @@ UTC代表的是全球标准时间<br>
                                                     <i class="post-share"></i>
                                                     <span>Share:</span>
                                                         <a title="QR Code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://NorthernAurora.github.io/post/guan-yu-java-lian-jie-mysql-bao-cuo-chu-xian-at-commysqlcjjdbcexceptionssqlerrorcreatesqlexceptionsqlerrorjava11/"><i class="fa fa-qrcode"></i></a>
-                                                        <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://NorthernAurora.github.io/post/guan-yu-java-lian-jie-mysql-bao-cuo-chu-xian-at-commysqlcjjdbcexceptionssqlerrorcreatesqlexceptionsqlerrorjava11/&sharesource=qzone&title=关于Java连接MySql报错出现at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:11&pics=https://NorthernAurora.github.io/images/avatar.png?v=1591458574747&summary="><i class="fa fa-qq"></i></a>
-                                                        <a title="Weibo" target="_blank" href="https://service.weibo.com/share/share.php?url=https://NorthernAurora.github.io/post/guan-yu-java-lian-jie-mysql-bao-cuo-chu-xian-at-commysqlcjjdbcexceptionssqlerrorcreatesqlexceptionsqlerrorjava11/&sharesource=weibo&title=关于Java连接MySql报错出现at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:11 + " - " + &pic="https://NorthernAurora.github.io/images/avatar.png?v=1591458574747 "><i class="fa fa-weibo "></i></a>
+                                                        <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://NorthernAurora.github.io/post/guan-yu-java-lian-jie-mysql-bao-cuo-chu-xian-at-commysqlcjjdbcexceptionssqlerrorcreatesqlexceptionsqlerrorjava11/&sharesource=qzone&title=关于Java连接MySql常见报错&pics=https://NorthernAurora.github.io/images/avatar.png?v=1591502429458&summary="><i class="fa fa-qq"></i></a>
+                                                        <a title="Weibo" target="_blank" href="https://service.weibo.com/share/share.php?url=https://NorthernAurora.github.io/post/guan-yu-java-lian-jie-mysql-bao-cuo-chu-xian-at-commysqlcjjdbcexceptionssqlerrorcreatesqlexceptionsqlerrorjava11/&sharesource=weibo&title=关于Java连接MySql常见报错 + " - " + &pic="https://NorthernAurora.github.io/images/avatar.png?v=1591502429458 "><i class="fa fa-weibo "></i></a>
                                                         
                                                                 </span>
                                                                 <!--en-->
@@ -372,7 +377,7 @@ Powered by <a href="https://northernaurora.github.io/" target="_blank">Vin</a>
                     console.clear();
                     
                     var newDate = new Date();
-                    newDate.setTime(1591458574747);
+                    newDate.setTime(1591502429458);
                     console.log(" Blog Update Time: " + newDate.toLocaleDateString());
                     console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
                 </script>
