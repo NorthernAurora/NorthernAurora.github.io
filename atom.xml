@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NorthernAurora.github.io</id>
     <title>Module</title>
-    <updated>2020-06-07T13:37:58.758Z</updated>
+    <updated>2020-06-11T06:58:54.672Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NorthernAurora.github.io"/>
     <link rel="self" href="https://NorthernAurora.github.io/atom.xml"/>
@@ -10,6 +10,40 @@
     <logo>https://NorthernAurora.github.io/images/avatar.png</logo>
     <icon>https://NorthernAurora.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Module</rights>
+    <entry>
+        <title type="html"><![CDATA[关于在GitHub上传项目的流程]]></title>
+        <id>https://NorthernAurora.github.io/post/guan-yu-zai-github-shang-chuan-xiang-mu-de-liu-cheng/</id>
+        <link href="https://NorthernAurora.github.io/post/guan-yu-zai-github-shang-chuan-xiang-mu-de-liu-cheng/">
+        </link>
+        <updated>2020-06-11T05:27:39.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>第一步：</strong><br>
+完成GitHub注册并创建自己的仓库用于保存项目。并完成任意git的安装。<br>
+找到你希望上传的项目文件夹，右键Git Bash Here。<br>
+<strong>第二步：</strong><br>
+使用git init命令，将项目变为Git可管理的仓库。<br>
+<strong>第三步：</strong><br>
+使用git add命令，将项目下的文件夹添加到仓库<br>
+<strong>第四步：</strong><br>
+使用git commit -m命令给项目添加注释<br>
+<strong>第五步：</strong><br>
+输入git remote add origin+自己在GitHub注册的仓库链接，使得本地仓库关联到GitHub，然后输入git push -u origin master   等待出现提示框输入账号密码，完成上传。</p>
+<p>🌈完成上述步骤即可前往GitHub检查项目是否上传完成，若未上传，请检查上传步骤。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java se实现可局域网联机对战的五子棋]]></title>
+        <id>https://NorthernAurora.github.io/post/java-se-shi-xian-ke-ju-yu-wang-lian-ji-dui-zhan-de-wu-zi-qi/</id>
+        <link href="https://NorthernAurora.github.io/post/java-se-shi-xian-ke-ju-yu-wang-lian-ji-dui-zhan-de-wu-zi-qi/">
+        </link>
+        <updated>2020-06-11T04:19:33.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>展示如下：</strong><br>
+<img src="https://NorthernAurora.github.io/post-images/1591849249396.png" alt="" loading="lazy"><br>
+（注：代码有所修改）<br>
+未修改代码地址：<a href = "https://github.com/NorthernAurora/MyProject.git /" target="_black">👉点我获取😋</a><br/><br>
+    其中打印棋盘需要使用的特殊符号打印方式：https://blog.csdn.net/kanpiaoxue/article/details/84915623</p>
+<p>    如果想要实现人机对战，可在源代码Geme下加以修改添加打分算法判断即可，打分算法参考链接：https://www.cnblogs.com/chaiwenjun000/p/5321115.html</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于Java连接MySql常见报错]]></title>
         <id>https://NorthernAurora.github.io/post/guan-yu-java-lian-jie-mysql-bao-cuo-chu-xian-at-commysqlcjjdbcexceptionssqlerrorcreatesqlexceptionsqlerrorjava11/</id>
