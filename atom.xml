@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NorthernAurora.github.io</id>
     <title>Module</title>
-    <updated>2020-06-17T03:45:33.909Z</updated>
+    <updated>2020-06-17T03:47:12.198Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NorthernAurora.github.io"/>
     <link rel="self" href="https://NorthernAurora.github.io/atom.xml"/>
@@ -135,7 +135,7 @@ le20<em>le20-le20</em>le20=NaN，由于溢出的关系，可见在数字大的�
         <content type="html"><![CDATA[<p><strong>展示如下：</strong><br>
 <img src="https://NorthernAurora.github.io/post-images/1591849249396.png" alt="" loading="lazy"><br>
 （注：代码有所修改）<br>
-未修改代码地址：<a href = "https://github.com/NorthernAurora/MyProject.git /" target="_black">👉点我获取😋</a><br/><br>
+未修改代码地址：<a href = "https://github.com/NorthernAurora/MyProject /" target="_black">👉点我获取😋</a><br/><br>
     其中打印棋盘需要使用的特殊符号打印方式：https://blog.csdn.net/kanpiaoxue/article/details/84915623</p>
 <p>    如果想要实现人机对战，可在源代码Geme下加以修改添加打分算法判断即可，打分算法参考链接：https://www.cnblogs.com/chaiwenjun000/p/5321115.html</p>
 ]]></content>
