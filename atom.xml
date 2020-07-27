@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NorthernAurora.github.io</id>
     <title>Module</title>
-    <updated>2020-07-10T09:28:32.422Z</updated>
+    <updated>2020-07-27T06:16:17.079Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NorthernAurora.github.io"/>
     <link rel="self" href="https://NorthernAurora.github.io/atom.xml"/>
@@ -193,6 +193,9 @@ jdbk:mysql://localhost:3306/testdb?characterEncoding=utf-8&amp;useSSL=false</str
         <updated>2020-04-30T03:47:07.000Z</updated>
         <content type="html"><![CDATA[<p>  hh，这个贴子现在正式更改为水题打卡训练🤡<a href = "https://www.luogu.com.cn/?_t=1564566493292.2532/" target="_black">洛谷</a><br/></p>
 <figure data-type="image" tabindex="1"><img src="https://NorthernAurora.github.io/post-images/1593178660996.png" alt="" loading="lazy"></figure>
+<p><strong>2020/7/27更新</strong>🤠<br>
+<img src="https://NorthernAurora.github.io/post-images/1595830523861.png" alt="" loading="lazy"><br>
+很抱歉，没有鸽，hh，有些人要失望了。</p>
 ]]></content>
     </entry>
     <entry>
