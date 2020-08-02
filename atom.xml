@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NorthernAurora.github.io</id>
     <title>Module</title>
-    <updated>2020-08-02T08:16:12.868Z</updated>
+    <updated>2020-08-02T09:16:48.629Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NorthernAurora.github.io"/>
     <link rel="self" href="https://NorthernAurora.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://NorthernAurora.github.io/images/avatar.png</logo>
     <icon>https://NorthernAurora.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Module</rights>
+    <entry>
+        <title type="html"><![CDATA[2026 Mars program！]]></title>
+        <id>https://NorthernAurora.github.io/post/2026-mars-program/</id>
+        <link href="https://NorthernAurora.github.io/post/2026-mars-program/">
+        </link>
+        <updated>2020-08-02T09:07:13.000Z</updated>
+        <content type="html"><![CDATA[<p>参与了NASA的2026名字飞向火星计划。</p>
+<ul>
+<li>真遥远啊，6年后不出意外的话我可能已经有了自己的家庭，所以在这里记录一下，这个在我少年时代末期所参加的事情，希望我的初心不变！嗯，就这样吧。<br>
+<img src="https://NorthernAurora.github.io/post-images/1596359539069.png" alt="" loading="lazy"></li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[浅谈大数高精（入门向）]]></title>
         <id>https://NorthernAurora.github.io/post/qian-tan-gao-jing-du-ru-men-xiang/</id>
