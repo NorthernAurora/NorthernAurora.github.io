@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NorthernAurora.github.io</id>
     <title>Module</title>
-    <updated>2020-08-02T09:29:26.683Z</updated>
+    <updated>2020-08-04T04:41:56.241Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NorthernAurora.github.io"/>
     <link rel="self" href="https://NorthernAurora.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://NorthernAurora.github.io/images/avatar.png</logo>
     <icon>https://NorthernAurora.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Module</rights>
+    <entry>
+        <title type="html"><![CDATA[常用的数学基础推导公式]]></title>
+        <id>https://NorthernAurora.github.io/post/chang-yong-de-shu-xue-ji-chu-tui-dao-gong-shi/</id>
+        <link href="https://NorthernAurora.github.io/post/chang-yong-de-shu-xue-ji-chu-tui-dao-gong-shi/">
+        </link>
+        <updated>2020-08-02T10:57:05.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>知到正方体对角线长度a，设边长为b，则体积V = b^3 = a^3*sqr(3)/9</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2026 Mars program！]]></title>
         <id>https://NorthernAurora.github.io/post/2026-mars-program/</id>
@@ -209,6 +220,8 @@ jdbk:mysql://localhost:3306/testdb?characterEncoding=utf-8&amp;useSSL=false</str
 <p><strong>2020/7/27更新</strong>🤠<br>
 <img src="https://NorthernAurora.github.io/post-images/1595830523861.png" alt="" loading="lazy"><br>
 很抱歉，没有鸽，hh，有些人要失望了。</p>
+<p><strong>2020/8/4更新</strong>😆<br>
+现已新增LeetCode打卡计划，与洛谷双向进行😘</p>
 ]]></content>
     </entry>
     <entry>
