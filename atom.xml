@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NorthernAurora.github.io</id>
     <title>Module</title>
-    <updated>2020-08-04T04:41:56.241Z</updated>
+    <updated>2020-08-05T14:06:42.181Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NorthernAurora.github.io"/>
     <link rel="self" href="https://NorthernAurora.github.io/atom.xml"/>
@@ -10,6 +10,28 @@
     <logo>https://NorthernAurora.github.io/images/avatar.png</logo>
     <icon>https://NorthernAurora.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Module</rights>
+    <entry>
+        <title type="html"><![CDATA[更新预告贴]]></title>
+        <id>https://NorthernAurora.github.io/post/geng-xin-yu-gao-tie/</id>
+        <link href="https://NorthernAurora.github.io/post/geng-xin-yu-gao-tie/">
+        </link>
+        <updated>2020-08-05T12:36:18.000Z</updated>
+        <content type="html"><![CDATA[<h2>🌗hh，各位大犇，现在已经可以通过这篇置顶文章来知晓我的更新计划了！</h2>
+<style type="text/css">
+            p{text-align:center; }
+        </style>
+<h3>2020/8月更新计划</h3>
+<ul>
+<li>浅谈大数高精（入门向）<sub>咕咕咕？才不会！（确信）</sub></li>
+<li>常用的数学基础推导公式（随做题打卡而长期更新）</li>
+<li>线段树</li>
+<li>计算机网络相关知识整理</li>
+<li>操作系统总结</li>
+<li>汇编入门</li>
+</ul>
+ <p><sub>樱花满地集于我心，楪舞纷飞祈愿相随。</sub></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[常用的数学基础推导公式]]></title>
         <id>https://NorthernAurora.github.io/post/chang-yong-de-shu-xue-ji-chu-tui-dao-gong-shi/</id>
@@ -222,21 +244,6 @@ jdbk:mysql://localhost:3306/testdb?characterEncoding=utf-8&amp;useSSL=false</str
 很抱歉，没有鸽，hh，有些人要失望了。</p>
 <p><strong>2020/8/4更新</strong>😆<br>
 现已新增LeetCode打卡计划，与洛谷双向进行😘</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[浅谈JavaScript 与HTML]]></title>
-        <id>https://NorthernAurora.github.io/post/qian-tan-javascript-yu-html/</id>
-        <link href="https://NorthernAurora.github.io/post/qian-tan-javascript-yu-html/">
-        </link>
-        <updated>2020-04-08T01:35:32.000Z</updated>
-        <content type="html"><![CDATA[<p>前言：嗯，为什么第一篇文章要写这个呢，因为就在要着手正式开发前没脑子的参加了微信小程序大赛，然而之前并没有写过JS，只好再次把本就+∞的战线再次拉长（笑），再次感受到了时间的紧迫。</p>
-<p>什么是JavaScript？<br>
-       JavaScript（简称“JS”） 是一种具有函数优先的轻量级，解释型或即时编译型的编程语言。虽然它是作为开发Web页面的脚本语言而出名的，但是它也被用到了很多非浏览器环境中，JavaScript 基于原型编程、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
-<p>什么是HTML？<br>
-        HTML称为超文本标记语言，是一种标识性的语言。它包括一系列标签．通过这些标签可以将网络上的文档格式统一，使分散的Internet资源连接为一个逻辑整体。HTML文本是由HTML命令组成的描述性文本，HTML命令可以说明文字，图形、动画、声音、表格、链接等。</p>
-<p>两者的关系：<br>
-        HTML和JS都是当前web前端开发所需的技术，js是网页脚本语言，h5是目前最流行的HTML开发语言。而 HTML可以看作是JavaScript，HTML的许多标签都依赖于JS的API实现。</p>
 ]]></content>
     </entry>
 </feed>
